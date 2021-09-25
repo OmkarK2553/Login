@@ -1,0 +1,111 @@
+body {
+  background-color: #311202;
+}
+  
+  .container {
+    background: linear-gradient(#f89e4f,#fae7c1);
+    border: 2px black solid;
+    border-radius: 25px;
+    box-shadow: 1px 1px 30px #333333;
+    position: absolute;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+  }
+  
+  .form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .form-group h1,
+  h3 {
+    font-weight: bold;
+    margin: 12.5px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  .form-group h1 {
+    text-decoration: underline;
+    
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: blue;
+  }
+  
+  .form-group input[type="email"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 85%;
+    margin: 2.5%;
+    padding: 2%;
+  }
+  
+  .form-group a {
+    margin: 5%;
+  }
+  
+  .form-group input[type="checkbox"] {
+    margin: 5%;
+    margin-right: 0;
+  }
+  
+  .rgst p {
+    margin-bottom: 2.5%;
+    margin-right: 0px;
+  }
+  
+  .rgst a {
+    margin-left: 0;
+  }
+  
+  .form-group input[type="email"],
+  input[type="password"] {
+    margin-left: 7.5%;
+  }
+  .form-group input[type="email"] {
+    margin-top: 10%;
+  }
+  
+  .form-group input[type="submit"] {
+    margin-bottom: 5%;
+  }
+
+  .frgt{
+    padding: 5%;
+  }
+
+  .reg{
+    display: inline;
+  }
+
+  .btn{
+    background-color: #311202;
+    color: white;
+  }
+
+  @media(min-width:377px){
+    .reg_pass{
+      display: flex;
+    }
+    .rgst{
+      margin-top: 2.5%;
+    }
+
+    .reg_pass input[type="checkbox"], .reg_pass a, .reg_pass label{
+      margin-top: 10%;
+    }
+  }
